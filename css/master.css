@@ -6,21 +6,22 @@ html, body {
 }
 
 nav {
-  background: #5abd00;
+  background: #85c638;
+  padding: 10px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
-.nav-logo {
+nav li {
+  padding-left: 20px;
+}
 
+nav ul li {
+  margin-right: 10px;
 }
 
 nav ul {
   display: flex;
   list-style: none;
-}
-
-nav ul li {
-  margin-left: 10px;
 }
