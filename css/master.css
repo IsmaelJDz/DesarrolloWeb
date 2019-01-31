@@ -6,28 +6,21 @@ html, body {
 }
 
 nav {
+  background: #5abd00;
   display: flex;
-  background: #7ACC2D;
-  padding: 10px;
-  color: white;
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul {
-  display: flex;
+.nav-logo {
+
 }
 
-nav li {
-  padding-left: 20px;
+nav ul {
+  display: flex;
   list-style: none;
 }
 
-nav li a {
-  color: #ff0;
-  text-decoration: none;
-}
-
-nav li a:hover{
-  color: white;
+nav ul li {
+  margin-left: 10px;
 }
