@@ -1,15 +1,31 @@
+/* Tipografias */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Variables*/
+
+:root {
+  --green-color: #7ACC2D;
+  --white-color: #FFF;
+
+/* Espaciado */
+--space:10px;
+
+}
+
+
+
 html, body {
   padding: 0;
   margin: 0;
   font-size: 12px;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
   display: flex;
-  background: #7ACC2D;
-  padding: 10px;
-  color: white;
+  background: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
 }
@@ -29,16 +45,16 @@ nav li a {
 }
 
 nav li a:hover{
-  color: white;
+  color: var(--white-color);
 }
 
 /* ------------------------------------Main section */
 
 .main_button {
-  background-color: #7ACC2D;
-  padding: 10px;
+  background-color: var(--green-color);
+  padding: var(--space);
   width: 100%;
-  color: white;
+  color: var(--white-color);
   font-size: 12px;
   border: 0;
   border-radius: 2px;
@@ -68,12 +84,12 @@ nav li a:hover{
 }
 
 .product {
-  padding: 10px;
+  padding: var(--space);
   margin-top: -230px;
 }
 
 .product .content {
-  background-color: white;
+  background-color: var(--white-color);
   padding: 15px;
   box-shadow: 0 0 1px #c1bcbc;
 }
