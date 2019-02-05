@@ -4,6 +4,7 @@
     }, 11);
     function onComplete(){
         clearInterval(tId);
-        alert("loaded!");
+        //alert("loaded!");
+        console.log('ok')
     };
 })()
