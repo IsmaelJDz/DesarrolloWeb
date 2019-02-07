@@ -5,3 +5,17 @@
 .container h2{
   margin-top: 17%;
 }
+
+/* estilos para el formulario */
+
+.modulo_pago {
+  background-color: white;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+  padding: 10px;
+}
+
+.modulo_pago_imagen {
+  max-width: 150px;
+  text-align: center;
+  margin: 0 auto;
+}
